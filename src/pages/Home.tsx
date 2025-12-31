@@ -47,8 +47,7 @@ const Home = () => {
 
           {/* Subtitle */}
           <AnimatedParagraph className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8" delay={0.5}>
-            I build immersive web applications that blend cutting-edge technology 
-            with stunning design. Turning complex ideas into elegant solutions.
+            BE CSE student | Aspiring Software Developer | Skilled in Python, Java, C, SQL, DSA | Eager to Learn, Develop & Contribute
           </AnimatedParagraph>
 
           {/* CTA Buttons */}
