@@ -40,7 +40,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="scan-line">
+        <div>
           <Navigation />
           <AnimatedRoutes />
         </div>
