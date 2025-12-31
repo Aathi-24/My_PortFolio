@@ -90,7 +90,7 @@ const Home = () => {
           }} transition={{
             duration: 0.6,
             delay: 0.9
-          }} className="flex items-center justify-center gap-4">
+          }} className="gap-4 flex items-end justify-center px-[50px]">
             {[{
               icon: Github,
               href: "https://github.com",
