@@ -90,14 +90,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted-foreground text-sm flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-destructive fill-destructive" /> by Developer
-          </p>
-          <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} All rights reserved.
-          </p>
-        </div>
+        
       </div>
     </footer>;
 };
