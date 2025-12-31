@@ -20,7 +20,7 @@ const Home = () => {
       }} />
       
       {/* Main Content */}
-      <div className="relative z-10 container-custom px-4 pt-24">
+      <div className="relative z-10 container-custom px-4 pt-[50px]">
         <div className="text-center max-w-4xl mx-auto">
           {/* Glitch Label */}
           <motion.div initial={{
@@ -33,14 +33,12 @@ const Home = () => {
             duration: 0.6,
             delay: 0.2
           }} className="inline-block mb-6">
-            <span className="glass px-4 py-2 rounded-full text-sm font-medium text-primary">
-              ​Software Developer      
-            </span>
+            
           </motion.div>
 
           {/* Main Title */}
           <AnimatedTitle className="text-4xl sm:text-5xl md:text-7xl font-display font-bold mb-6 leading-tight" delay={0.3}>
-            <span className="block text-foreground font-serif text-5xl">AADITHYA  VETTRIVEL</span>
+            <span className="block text-foreground font-serif text-5xl pt-[100px]">AADITHYA  VETTRIVEL</span>
             <span className="block gradient-text px-0 text-4xl font-serif">
             </span>
           </AnimatedTitle>
@@ -60,7 +58,7 @@ const Home = () => {
           }} transition={{
             duration: 0.6,
             delay: 0.7
-          }} className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          }} className="flex flex-col items-center justify-center gap-4 mb-12 pt-[100px] py-[50px] sm:flex sm:flex-row">
             <Link to="/projects">
               <motion.button whileHover={{
                 scale: 1.05,
@@ -82,39 +80,7 @@ const Home = () => {
           </motion.div>
 
           {/* Social Links */}
-          <motion.div initial={{
-            opacity: 0
-          }} animate={{
-            opacity: 1
-          }} transition={{
-            duration: 0.6,
-            delay: 0.9
-          }} className="gap-4 flex items-end justify-center px-[50px]">
-            {[{
-              icon: Github,
-              href: "https://github.com",
-              label: "GitHub"
-            }, {
-              icon: Linkedin,
-              href: "https://linkedin.com",
-              label: "LinkedIn"
-            }, {
-              icon: Mail,
-              href: "mailto:hello@developer.com",
-              label: "Email"
-            }].map(({
-              icon: Icon,
-              href,
-              label
-            }) => <motion.a key={label} href={href} target="_blank" rel="noopener noreferrer" whileHover={{
-              scale: 1.2,
-              y: -5
-            }} whileTap={{
-              scale: 0.9
-            }} className="p-3 glass rounded-xl hover:border-primary/50 hover:shadow-[0_0_20px_hsl(186_100%_50%/0.3)] transition-all duration-300" aria-label={label}>
-                <Icon className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
-              </motion.a>)}
-          </motion.div>
+          
         </div>
 
         {/* Scroll Indicator */}
