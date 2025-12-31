@@ -141,7 +141,7 @@ const Skills = () => {
             {[
               { name: "GitHub", url: "https://github.com", icon: "🐙", stats: "500+ commits" },
               { name: "LeetCode", url: "https://leetcode.com", icon: "💻", stats: "200+ solved" },
-              { name: "HackerRank", url: "https://hackerrank.com", icon: "✏️", stats: "50+ pens" },
+              { name: "HackerRank", url: "https://hackerrank.com", icon: "✏️", stats: "50+ problems" },
               { name: "Stack Overflow", url: "https://stackoverflow.com", icon: "📚", stats: "5k+ rep" },
             ].map((profile, index) => (
               <motion.a
