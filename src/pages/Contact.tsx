@@ -11,7 +11,7 @@ const contactInfo = [{
 }, {
   icon: MapPin,
   label: "Location",
-  value: "San Francisco, CA",
+  value: "Coimbatore, India",
   href: "#"
 }, {
   icon: Phone,
