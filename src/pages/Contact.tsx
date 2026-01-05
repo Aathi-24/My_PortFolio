@@ -16,8 +16,8 @@ const contactInfo = [{
 }, {
   icon: Phone,
   label: "Phone",
-  value: "+1 (555) 123-4567",
-  href: "tel:+15551234567"
+  value: "+91-94889-41788",
+  href: "tel:+919488941788"
 }];
 const socialLinks = [{
   icon: Github,
