@@ -3,8 +3,11 @@ import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/Ani
 const skillCategories = [{
   title: "Frontend",
   skills: [{
-    name: "React",
-    level: 10
+    name: "HTML",
+    level: 70
+  }, {
+    name: "CSS",
+    level: 65
   }, {
     name: "TypeScript",
     level: 10
