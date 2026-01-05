@@ -180,8 +180,8 @@ const Skills = () => {
             icon: "✏️",
             stats: "50+ problems"
           }, {
-            name: "Stack Overflow",
-            url: "https://stackoverflow.com",
+            name: "Linkedin",
+            url: "https://linkedin.com",
             icon: "📚",
             stats: "5k+ rep"
           }].map((profile, index) => <motion.a key={profile.name} href={profile.url} target="_blank" rel="noopener noreferrer" initial={{
