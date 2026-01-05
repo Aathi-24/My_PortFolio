@@ -59,20 +59,23 @@ const skillCategories = [{
     name: "Git",
     level: 95
   }, {
-    name: "Docker",
+    name: "Unity",
     level: 80
   }, {
-    name: "AWS",
-    level: 75
+    name: "Azure",
+    level: 70
   }, {
-    name: "CI/CD",
-    level: 85
+    name: "Unreal Engine",
+    level: 70
   }, {
-    name: "Linux",
-    level: 80
+    name: "Blender",
+    level: 90
   }, {
     name: "Figma",
-    level: 70
+    level: 30
+  }, {
+    name: "Flutter",
+    level: 40
   }],
   gradient: "from-neon-purple to-primary"
 }];
