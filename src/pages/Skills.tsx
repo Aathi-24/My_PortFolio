@@ -159,7 +159,7 @@ const Skills = () => {
         {/* Coding Profiles */}
         <AnimatedSection delay={0.4} className="mt-20">
           <h2 className="text-2xl md:text-3xl font-display font-bold text-center mb-10">
-            <span className="text-foreground">Coding </span>
+            <span className="text-foreground">MY </span>
             <span className="gradient-text-secondary">Profiles</span>
           </h2>
           
