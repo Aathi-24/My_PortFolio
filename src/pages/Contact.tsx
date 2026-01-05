@@ -220,8 +220,8 @@ const Contact = () => {
                 <p className="text-muted-foreground mb-4">
                   Let's bring your ideas to life together.
                 </p>
-                <a href="mailto:hello@developer.com" className="inline-flex items-center gap-2 text-primary font-semibold hover:underline">
-                  hello@developer.com
+                <a className="inline-flex items-center gap-2 text-primary font-semibold hover:underline" href="\u200Baadithyavettrivel24@gmail.com">
+                  ​aadithyavettrivel24@gmail.com
                   <Mail className="w-4 h-4" />
                 </a>
               </div>
