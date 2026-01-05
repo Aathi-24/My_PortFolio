@@ -26,22 +26,28 @@ const skillCategories = [{
   title: "Backend",
   skills: [{
     name: "Node.js",
-    level: 90
+    level: 20
   }, {
     name: "Python",
-    level: 80
+    level: 95
   }, {
-    name: "PostgreSQL",
-    level: 85
+    name: "MySQL",
+    level: 95
   }, {
     name: "MongoDB",
-    level: 80
+    level: 60
   }, {
-    name: "GraphQL",
+    name: "Java",
+    level: 95
+  }, {
+    name: "C++",
     level: 75
   }, {
+    name: "C",
+    level: 90
+  }, {
     name: "REST APIs",
-    level: 95
+    level: 60
   }],
   gradient: "from-secondary to-neon-magenta"
 }, {
