@@ -6,8 +6,8 @@ import { toast } from "sonner";
 const contactInfo = [{
   icon: Mail,
   label: "Email",
-  value: "hello@developer.com",
-  href: "mailto:hello@developer.com"
+  value: "aadithyavettrivel24@gmail.com",
+  href: "mailto:aadithyavettrivel24@gmail.com"
 }, {
   icon: MapPin,
   label: "Location",
