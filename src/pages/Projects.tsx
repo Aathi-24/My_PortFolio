@@ -3,7 +3,8 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/AnimatedText";
 import portfolioImage from "@/assets/portfolio-project.jpg";
 import coinCollectorImage from "@/assets/coin-collector-game.jpg";
-import miniProjectsImage from "@/assets/mini-projects.jpg";
+import collegeAdmissionImage from "@/assets/college-admission-form.jpg";
+import onlinePurchaseImage from "@/assets/online-purchase-system.jpg";
 
 const projects = [
   {
@@ -25,12 +26,21 @@ const projects = [
     featured: true,
   },
   {
-    title: "Mini Projects Collection",
-    description: "A collection of small Python projects developed during college coursework. Includes utilities, automation scripts, and practice programs showcasing various programming concepts.",
-    image: miniProjectsImage,
-    tags: ["Python", "Automation", "Utilities", "College Projects"],
+    title: "College Admission Form",
+    description: "A Python-based college admission form application that handles student registration, course selection, and data management. Features form validation and database integration for storing applicant information.",
+    image: collegeAdmissionImage,
+    tags: ["Python", "Forms", "Data Management", "College Project"],
     liveUrl: "#",
-    githubUrl: "https://github.com/Aathi-24/Mini-Projects-",
+    githubUrl: "https://github.com/Aathi-24/Mini-Projects-/blob/main/College%20Admission%20Form",
+    featured: false,
+  },
+  {
+    title: "Online Purchase System",
+    description: "A Python-based e-commerce simulation system featuring product catalog, shopping cart functionality, and order processing. Demonstrates object-oriented programming and basic transaction handling.",
+    image: onlinePurchaseImage,
+    tags: ["Python", "E-Commerce", "OOP", "College Project"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Aathi-24/Mini-Projects-/tree/main/Online_Purchase",
     featured: false,
   },
 ];
