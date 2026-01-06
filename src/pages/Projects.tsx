@@ -1,58 +1,37 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/AnimatedText";
+import portfolioImage from "@/assets/portfolio-project.jpg";
+import coinCollectorImage from "@/assets/coin-collector-game.jpg";
+import miniProjectsImage from "@/assets/mini-projects.jpg";
 
 const projects = [
   {
-    title: "AI Dashboard",
-    description: "A comprehensive analytics dashboard with AI-powered insights and real-time data visualization.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    tags: ["React", "TypeScript", "D3.js", "OpenAI"],
+    title: "My Portfolio",
+    description: "A modern, interactive portfolio website built with React, TypeScript, and Three.js. Features stunning 3D elements, particle animations, and smooth page transitions.",
+    image: portfolioImage,
+    tags: ["React", "TypeScript", "Three.js", "Framer Motion", "Tailwind CSS"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Aathi-24/My_PortFolio",
     featured: true,
   },
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Prisma"],
+    title: "Coin Collector Game",
+    description: "An exciting 2D platformer game developed in Unity. Players navigate through levels collecting coins while avoiding obstacles. Features fun gameplay mechanics and colorful visuals.",
+    image: coinCollectorImage,
+    tags: ["Unity", "C#", "2D Game Dev", "Game Design"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Aathi-24/Coin_Collector_game_Unity_2D",
     featured: true,
   },
   {
-    title: "3D Portfolio",
-    description: "Interactive 3D portfolio website with WebGL graphics and immersive animations.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-    tags: ["Three.js", "React", "GSAP", "WebGL"],
+    title: "Mini Projects Collection",
+    description: "A collection of small Python projects developed during college coursework. Includes utilities, automation scripts, and practice programs showcasing various programming concepts.",
+    image: miniProjectsImage,
+    tags: ["Python", "Automation", "Utilities", "College Projects"],
     liveUrl: "#",
-    githubUrl: "#",
-    featured: true,
-  },
-  {
-    title: "Task Management App",
-    description: "Collaborative task management with real-time updates and team features.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    tags: ["React", "Socket.io", "MongoDB", "Node.js"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Weather Dashboard",
-    description: "Beautiful weather app with location-based forecasts and animated backgrounds.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-    tags: ["React", "Weather API", "Framer Motion"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Crypto Tracker",
-    description: "Real-time cryptocurrency tracking with portfolio management and price alerts.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
-    tags: ["React", "CoinGecko API", "Charts"],
-    liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Aathi-24/Mini-Projects-",
+    featured: false,
   },
 ];
 
@@ -171,7 +150,7 @@ const Projects = () => {
           className="text-center"
         >
           <motion.a
-            href="https://github.com"
+            href="https://github.com/Aathi-24"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
