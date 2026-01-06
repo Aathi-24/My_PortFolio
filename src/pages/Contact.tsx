@@ -75,7 +75,7 @@ const Contact = () => {
           </p>
         </AnimatedSection>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 items-start">
           {/* Contact Form */}
           <AnimatedSection delay={0.2}>
             <motion.form onSubmit={handleSubmit} className="glass rounded-2xl p-8 space-y-6">
@@ -149,7 +149,7 @@ const Contact = () => {
           </AnimatedSection>
 
           {/* Contact Info & Social */}
-          <AnimatedSection delay={0.4} className="space-y-8">
+          <AnimatedSection delay={0.4} className="space-y-6">
             {/* Contact Info */}
             <div className="glass rounded-2xl p-8">
               <h3 className="font-display font-bold text-xl text-foreground mb-6">
