@@ -53,9 +53,7 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
       whileHover={{ y: -10 }}
-      className={`group relative glass rounded-2xl overflow-hidden ${
-        project.featured ? "md:col-span-2 md:row-span-2" : ""
-      }`}
+      className="group relative glass rounded-2xl overflow-hidden h-full"
     >
       {/* Image */}
       <div className="relative overflow-hidden aspect-video">
@@ -146,7 +144,7 @@ const Projects = () => {
         </AnimatedSection>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
           {projects.map((project, index) => (
             <ProjectCard key={project.title} project={project} index={index} />
           ))}
