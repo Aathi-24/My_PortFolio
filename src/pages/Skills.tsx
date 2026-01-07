@@ -181,22 +181,22 @@ const Skills = () => {
           <div className="flex flex-wrap justify-center gap-6">
             {[{
             name: "GitHub",
-            url: "https://github.com",
+            url: "https://github.com/Aathi-24/",
             icon: "🐙",
             stats: "500+ commits"
           }, {
             name: "LeetCode",
-            url: "https://leetcode.com",
+            url: "https://leetcode.com/u/Aadi_2410/",
             icon: "💻",
             stats: "200+ solved"
           }, {
             name: "HackerRank",
-            url: "https://hackerrank.com",
+            url: "https://www.hackerrank.com/profile/aadithyavettriv1",
             icon: "✏️",
             stats: "50+ problems"
           }, {
-            name: "Linkedin",
-            url: "https://linkedin.com",
+            name: "LinkedIn",
+            url: "https://www.linkedin.com/in/aadithya-vettrivel",
             icon: "📚",
             stats: "5k+ rep"
           }].map((profile, index) => <motion.a key={profile.name} href={profile.url} target="_blank" rel="noopener noreferrer" initial={{

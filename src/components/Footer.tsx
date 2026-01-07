@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Instagram, Heart } from "lucide-react";
+import { Github, Linkedin, Facebook, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 const footerLinks = [{
   name: "Home",
@@ -19,19 +19,19 @@ const footerLinks = [{
 }];
 const socialLinks = [{
   icon: Github,
-  href: "https://github.com",
+  href: "https://github.com/Aathi-24/",
   label: "GitHub"
 }, {
   icon: Linkedin,
-  href: "https://linkedin.com",
+  href: "https://www.linkedin.com/in/aadithya-vettrivel",
   label: "LinkedIn"
 }, {
-  icon: Twitter,
-  href: "https://twitter.com",
-  label: "Twitter"
+  icon: Facebook,
+  href: "https://www.facebook.com/share/1CeWGJo8Ma/",
+  label: "Facebook"
 }, {
   icon: Instagram,
-  href: "https://instagram.com",
+  href: "https://www.instagram.com/_aadithya_vettrivel?igsh=eDI3anBxdjloMThw",
   label: "Instagram"
 }];
 const Footer = () => {
