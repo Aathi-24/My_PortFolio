@@ -1,12 +1,22 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import { ExternalLink, Github, Linkedin, ArrowRight } from "lucide-react";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/AnimatedText";
+import resumeValidatorImage from "@/assets/resume-validator.jpg";
 import portfolioImage from "@/assets/portfolio-project.jpg";
 import coinCollectorImage from "@/assets/coin-collector-game.jpg";
 import collegeAdmissionImage from "@/assets/college-admission-form.jpg";
 import onlinePurchaseImage from "@/assets/online-purchase-system.jpg";
 
 const projects = [
+  {
+    title: "Resume Validator",
+    description: "An AI-powered resume screening automation built with n8n workflow. Automatically extracts resume data from emails, validates content, scores candidate fit using AI, and stores structured insights in Google Sheets for data-driven recruitment.",
+    image: resumeValidatorImage,
+    tags: ["n8n", "AI", "Automation", "Google Sheets", "Gmail"],
+    liveUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-ugcPost-7413470766299545600-WxIl",
+    linkedinUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-ugcPost-7413470766299545600-WxIl",
+    featured: true,
+  },
   {
     title: "My Portfolio",
     description: "A modern, interactive portfolio website built with React, TypeScript, and Three.js. Features stunning 3D elements, particle animations, and smooth page transitions.",
@@ -80,16 +90,30 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
           >
             <ExternalLink className="w-5 h-5" />
           </motion.a>
-          <motion.a
-            href={project.githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="p-3 glass-strong rounded-xl"
-          >
-            <Github className="w-5 h-5" />
-          </motion.a>
+          {project.githubUrl && (
+            <motion.a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="p-3 glass-strong rounded-xl"
+            >
+              <Github className="w-5 h-5" />
+            </motion.a>
+          )}
+          {project.linkedinUrl && (
+            <motion.a
+              href={project.linkedinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="p-3 glass-strong rounded-xl"
+            >
+              <Linkedin className="w-5 h-5" />
+            </motion.a>
+          )}
         </motion.div>
       </div>
 
