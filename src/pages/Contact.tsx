@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Send, Mail, MapPin, Phone, Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Send, Mail, MapPin, Phone, Github, Linkedin, Facebook, Instagram } from "lucide-react";
 import { AnimatedSection } from "@/components/AnimatedText";
 import { toast } from "sonner";
 const contactInfo = [{
@@ -22,19 +22,19 @@ const contactInfo = [{
 const socialLinks = [{
   icon: Github,
   label: "GitHub",
-  href: "https://github.com"
+  href: "https://github.com/Aathi-24/"
 }, {
   icon: Linkedin,
   label: "LinkedIn",
-  href: "https://linkedin.com"
+  href: "https://www.linkedin.com/in/aadithya-vettrivel"
 }, {
-  icon: Twitter,
-  label: "Twitter",
-  href: "https://twitter.com"
+  icon: Facebook,
+  label: "Facebook",
+  href: "https://www.facebook.com/share/1CeWGJo8Ma/"
 }, {
   icon: Instagram,
   label: "Instagram",
-  href: "https://instagram.com"
+  href: "https://www.instagram.com/_aadithya_vettrivel?igsh=eDI3anBxdjloMThw"
 }];
 const Contact = () => {
   const [formData, setFormData] = useState({
