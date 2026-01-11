@@ -6,6 +6,7 @@ import portfolioImage from "@/assets/portfolio-project.jpg";
 import coinCollectorImage from "@/assets/coin-collector-game.jpg";
 import collegeAdmissionImage from "@/assets/college-admission-form.jpg";
 import onlinePurchaseImage from "@/assets/online-purchase-system.jpg";
+import fileOrganizerImage from "@/assets/file-organizer.jpg";
 
 const projects = [
   {
@@ -51,6 +52,15 @@ const projects = [
     tags: ["Python", "E-Commerce", "OOP", "College Project"],
     liveUrl: "#",
     githubUrl: "https://github.com/Aathi-24/Mini-Projects-/tree/main/Online_Purchase",
+    featured: false,
+  },
+  {
+    title: "File Organizer",
+    description: "A Python automation script that intelligently sorts and organizes files in your Downloads folder by type. Automatically categorizes files into Images, Videos, Documents, Music, Archives, Programs, and Code folders for a clutter-free workspace.",
+    image: fileOrganizerImage,
+    tags: ["Python", "Automation", "File Management", "Scripting"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Aathi-24/Mini-Projects-/blob/main/File%20Organizer/Code",
     featured: false,
   },
 ];
