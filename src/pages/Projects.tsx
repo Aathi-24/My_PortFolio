@@ -9,6 +9,7 @@ import onlinePurchaseImage from "@/assets/online-purchase-system.jpg";
 import fileOrganizerImage from "@/assets/file-organizer.jpg";
 import collegeCulturalEventImage from "@/assets/college-cultural-event.jpg";
 import collegeRegistrationImage from "@/assets/college-registration.jpg";
+import qrCodeGeneratorImage from "@/assets/qr-code-generator.jpg";
 
 const projects = [
   {
@@ -81,6 +82,15 @@ const projects = [
     tags: ["HTML", "CSS", "Frontend", "Forms"],
     liveUrl: "https://aadithyavettrivel.neocities.org/College_Registration/",
     githubUrl: "https://github.com/Aathi-24/FrontEnd-Projects/tree/main/College%20Registration%20Webpage",
+    featured: false,
+  },
+  {
+    title: "QR Code Generator",
+    description: "A Python-based QR code generator that creates custom QR codes from any text or URL input. Features a clean interface for generating and saving QR codes instantly for sharing links, contact info, or any data.",
+    image: qrCodeGeneratorImage,
+    tags: ["Python", "QR Code", "Automation", "Utility"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Aathi-24/Mini-Projects/tree/main/QR%20Code%20Generator",
     featured: false,
   },
 ];
