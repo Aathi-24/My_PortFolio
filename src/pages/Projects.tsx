@@ -7,6 +7,8 @@ import coinCollectorImage from "@/assets/coin-collector-game.jpg";
 import collegeAdmissionImage from "@/assets/college-admission-form.jpg";
 import onlinePurchaseImage from "@/assets/online-purchase-system.jpg";
 import fileOrganizerImage from "@/assets/file-organizer.jpg";
+import collegeCulturalEventImage from "@/assets/college-cultural-event.jpg";
+import collegeRegistrationImage from "@/assets/college-registration.jpg";
 
 const projects = [
   {
@@ -61,6 +63,24 @@ const projects = [
     tags: ["Python", "Automation", "File Management", "Scripting"],
     liveUrl: "#",
     githubUrl: "https://github.com/Aathi-24/Mini-Projects-/blob/main/File%20Organizer/Code",
+    featured: false,
+  },
+  {
+    title: "College Cultural Event",
+    description: "A vibrant and interactive college cultural festival webpage built with pure HTML and CSS. Features event schedules, performance highlights, registration sections, and a visually engaging design to promote campus cultural activities.",
+    image: collegeCulturalEventImage,
+    tags: ["HTML", "CSS", "Frontend", "Event Website"],
+    liveUrl: "https://aadithyavettrivel.neocities.org/College_Cultural_Event/event",
+    githubUrl: "https://github.com/Aathi-24/FrontEnd-Projects/tree/main/College%20Cultural%20Event%20Webpage",
+    featured: false,
+  },
+  {
+    title: "College Registration Portal",
+    description: "A responsive college registration form webpage created with HTML and CSS. Includes student enrollment forms, course selection options, and a clean user interface for streamlined admission processes.",
+    image: collegeRegistrationImage,
+    tags: ["HTML", "CSS", "Frontend", "Forms"],
+    liveUrl: "https://aadithyavettrivel.neocities.org/College_Registration/",
+    githubUrl: "https://github.com/Aathi-24/FrontEnd-Projects/tree/main/College%20Registration%20Webpage",
     featured: false,
   },
 ];
