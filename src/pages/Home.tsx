@@ -73,7 +73,7 @@ const Home = () => {
               scale: 1.05
             }} whileTap={{
               scale: 0.95
-            }} className="px-8 py-4 glass font-display font-semibold rounded-xl flex items-center gap-2 text-foreground hover:border-primary/50 transition-all duration-300" href="https://drive.google.com/file/d/12R1KG5XGMEdK1YOHuUXcRA_tD2teTtwS/view?usp=drive_link">
+            }} className="px-8 py-4 glass font-display font-semibold rounded-xl flex items-center gap-2 text-foreground hover:border-primary/50 transition-all duration-300" href="https://drive.google.com/file/d/1CHZezkkieXFYNBIrem02i0pRcaGLPk_X/view?usp=drive_link">
               <Download className="w-5 h-5" />
               Download Resume
             </motion.a>

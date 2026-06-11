@@ -93,7 +93,7 @@ const About = () => {
             }} whileTap={{
               scale: 0.95
             }} className="inline-block">
-                <a className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-neon-purple text-primary-foreground font-display font-semibold rounded-xl" href="https://drive.google.com/file/d/12R1KG5XGMEdK1YOHuUXcRA_tD2teTtwS/view?usp=drive_link">
+                <a className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-neon-purple text-primary-foreground font-display font-semibold rounded-xl" href="https://drive.google.com/file/d/1CHZezkkieXFYNBIrem02i0pRcaGLPk_X/view?usp=drive_link">
                   Download Resume
                 </a>
               </motion.div>
