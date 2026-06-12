@@ -3,6 +3,7 @@ import { ExternalLink, Github, Linkedin, ArrowRight } from "lucide-react";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/AnimatedText";
 import resumeValidatorImage from "@/assets/resume-validator.jpg";
 import emailLabellingImage from "@/assets/email-labelling-agent.jpg";
+import lailaChatbotImage from "@/assets/laila-chatbot.jpg";
 import portfolioImage from "@/assets/portfolio-project.jpg";
 import smartSpendImage from "@/assets/smart-spend.svg";
 import coinCollectorImage from "@/assets/coin-collector-game.jpg";
@@ -31,6 +32,16 @@ const projects = [
     liveUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-activity-7436259480381722624-3KAY",
     githubUrl: "https://github.com/Aathi-24/N8N-Projects/blob/main/Email%20Labelling%20Agent.json",
     linkedinUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-activity-7436259480381722624-3KAY",
+    featured: true,
+  },
+  {
+    title: "AI Chat Bot - LAILA",
+    description: "An intelligent conversational AI agent built in n8n using LangChain, powered by Groq's GPT-OSS-20B model. LAILA combines persistent memory, real-time web search via SerpAPI, and a calculator tool to deliver context-aware answers, live information, and instant computations through a seamless chat experience.",
+    image: lailaChatbotImage,
+    tags: ["n8n", "AI", "LangChain", "Groq", "Chatbot"],
+    liveUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-n8n-automation-activity-7429834874615685120-cjxp",
+    githubUrl: "https://github.com/Aathi-24/N8N-Projects/blob/main/Chat%20Bot.json",
+    linkedinUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-n8n-automation-activity-7429834874615685120-cjxp",
     featured: true,
   },
   {
