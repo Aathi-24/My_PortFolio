@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github, Linkedin, ArrowRight } from "lucide-react";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/AnimatedText";
 import resumeValidatorImage from "@/assets/resume-validator.jpg";
+import emailLabellingImage from "@/assets/email-labelling-agent.jpg";
 import portfolioImage from "@/assets/portfolio-project.jpg";
 import smartSpendImage from "@/assets/smart-spend.svg";
 import coinCollectorImage from "@/assets/coin-collector-game.jpg";
@@ -20,6 +21,16 @@ const projects = [
     tags: ["n8n", "AI", "Automation", "Google Sheets", "Gmail"],
     liveUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-ugcPost-7413470766299545600-WxIl",
     linkedinUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-ugcPost-7413470766299545600-WxIl",
+    featured: true,
+  },
+  {
+    title: "Email Labelling Agent",
+    description: "An intelligent n8n automation that monitors Gmail in real time and uses AI to classify incoming emails into categories like Advertisements, Education, Login Alerts, Personal, and Work. Automatically applies the right Gmail labels for a perfectly organized inbox—zero manual sorting.",
+    image: emailLabellingImage,
+    tags: ["n8n", "AI", "Gmail", "Automation", "Workflow"],
+    liveUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-activity-7436259480381722624-3KAY",
+    githubUrl: "https://github.com/Aathi-24/N8N-Projects/blob/main/Email%20Labelling%20Agent.json",
+    linkedinUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_ai-automation-n8n-activity-7436259480381722624-3KAY",
     featured: true,
   },
   {
