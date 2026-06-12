@@ -3,6 +3,7 @@ import { ExternalLink, Github, Linkedin, ArrowRight } from "lucide-react";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/AnimatedText";
 import resumeValidatorImage from "@/assets/resume-validator.jpg";
 import portfolioImage from "@/assets/portfolio-project.jpg";
+import smartSpendImage from "@/assets/smart-spend.svg";
 import coinCollectorImage from "@/assets/coin-collector-game.jpg";
 import collegeAdmissionImage from "@/assets/college-admission-form.jpg";
 import onlinePurchaseImage from "@/assets/online-purchase-system.jpg";
@@ -28,6 +29,16 @@ const projects = [
     tags: ["React", "TypeScript", "Three.js", "Framer Motion", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "https://github.com/Aathi-24/My_PortFolio",
+    featured: true,
+  },
+  {
+    title: "Smart Spend - Advanced Expense Tracker",
+    description: "A full-stack expense tracker with Google Sheets syncing, loan management, automated email reminders, JWT auth, and a polished 3D glassmorphism dashboard built with React, Node.js, Express, and MongoDB.",
+    image: smartSpendImage,
+    tags: ["React", "Node.js", "MongoDB", "Google Sheets", "JWT"],
+    liveUrl: "https://github.com/Aathi-24/Smart-Spend/tree/main/expense-tracker",
+    githubUrl: "https://github.com/Aathi-24/Smart-Spend/tree/main/expense-tracker",
+    linkedinUrl: "https://www.linkedin.com/posts/aadithya-vettrivel_fullstackdevelopment-reactjs-nodejs-ugcPost-7459096052340637696-assW/",
     featured: true,
   },
   {
