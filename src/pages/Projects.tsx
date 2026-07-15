@@ -13,6 +13,7 @@ import fileOrganizerImage from "@/assets/file-organizer.jpg";
 import collegeCulturalEventImage from "@/assets/college-cultural-event.jpg";
 import collegeRegistrationImage from "@/assets/college-registration.jpg";
 import qrCodeGeneratorImage from "@/assets/qr-code-generator.jpg";
+import ipThreatScopeImage from "@/assets/ip-threatscope.jpg";
 
 const projects = [
   {
