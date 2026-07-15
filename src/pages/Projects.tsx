@@ -13,6 +13,7 @@ import fileOrganizerImage from "@/assets/file-organizer.jpg";
 import collegeCulturalEventImage from "@/assets/college-cultural-event.jpg";
 import collegeRegistrationImage from "@/assets/college-registration.jpg";
 import qrCodeGeneratorImage from "@/assets/qr-code-generator.jpg";
+import ipThreatScopeImage from "@/assets/ip-threatscope.jpg";
 
 const projects = [
   {
@@ -70,6 +71,15 @@ const projects = [
     tags: ["Unity", "C#", "2D Game Dev", "Game Design"],
     liveUrl: "#",
     githubUrl: "https://github.com/Aathi-24/Coin_Collector_game_Unity_2D",
+    featured: true,
+  },
+  {
+    title: "IP ThreatScope - IP Reputation Checker",
+    description: "A full-stack IP Reputation Intelligence Platform that scans IPs across 15+ threat vendors (AbuseIPDB, VirusTotal, GreyNoise, Shodan, IPQualityScore, and more). Features role-based dashboards, scheduled automated email reports, batch scanning with CSV export, and a missed-check watchdog for continuous monitoring.",
+    image: ipThreatScopeImage,
+    tags: ["Python", "Flask", "APScheduler", "Bootstrap", "Chart.js"],
+    liveUrl: "https://github.com/Aathi-24/IP-Threatscope",
+    githubUrl: "https://github.com/Aathi-24/IP-Threatscope",
     featured: true,
   },
   {
